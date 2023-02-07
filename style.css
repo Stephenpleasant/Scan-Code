@@ -7,7 +7,7 @@
 }
 body{
     font-family: Outfit;
-    background-color:hsl(220, 15%, 55%);
+    background-color:hsl(212, 45%, 89%);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -45,6 +45,7 @@ body{
     font-size: 15px;
     text-align: center;
     font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
 
 @media only screen and (max-width: 600px) {
