@@ -6,36 +6,38 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Outfit;
+    font-family: 'Outfit';
     background-color:hsl(212, 45%, 89%);
     align-items: center;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
+
 }
 
 .container{
     max-width: 270px;
-   width: 80%;
+   margin: min(3%,1rem);
    padding: 15px;
    align-content: center;
    justify-content: center;
-   margin-top: 40px;
    background-color: hsl(0, 0%, 100%);
    border-radius: 6px;
 }
-.header img{
+img {
+    display: block;
+    width: 100%;
     max-width: 100%;
-    margin-top: 10px;
-    border-radius: 6px;
 
 }
+
 .section{
   margin: 17px;  
   
 }
 
 .section1 h1{
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 700;
 
 }
@@ -48,12 +50,7 @@ body{
     color: hsl(220, 15%, 55%);
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-      margin-left: 50px;
-    }
-  }
-    
+
 
 
     
